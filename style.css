@@ -135,6 +135,24 @@ onama
 .onama {
     background: lightgray;
 }
+/*************
+baner
+*************/
+.baner {
+    background: var(--secondaryColor);
+}
+.baner .lead {
+    background: var(--primaryColor);
+    display: inline-block;
+    padding: 10px 20px;
+}
+/*************
+footer
+*************/
+footer {
+    background: var(--primaryColor);
+    border-bottom: 6px solid var(--secondaryColor);
+}
 
 
 
