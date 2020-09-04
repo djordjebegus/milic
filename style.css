@@ -30,3 +30,40 @@ topBar
     color: var(--secondaryColor);
     transition: var(--transition);
 }
+/*************
+nav
+*************/
+.navbar {
+    background: var(--secondaryColor);
+}
+.navbar-brand {
+    font-family: var(--logoFont);
+    font-size: 2rem;
+    color: var(--primaryColor) !Important;
+}
+.navbar-brand:hover {
+    color: var(--white) !Important;
+    transition: var(--transition);
+}
+.nav-link {
+    color: var(--primaryColor) !important;
+    text-transform: uppercase;
+}
+.nav-link:hover {
+    color: var(--white) !important;
+    transition: var(--transition);
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--white) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
