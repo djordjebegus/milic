@@ -11,7 +11,22 @@
 body {
     font-size: var(--fontSize);
     color: var(--primaryColor);
+    font-family: var(--font);
 }
 h1, h2, h3, h4 {
     font-weight: 700;
+}
+/*************
+topBar
+*************/
+.topBar {
+    background: var(--primaryColor);
+}
+.topBar a {
+    color: var(--white);
+    margin: 0 10px;
+}
+.topBar a:hover {
+    color: var(--secondaryColor);
+    transition: var(--transition);
 }
