@@ -56,7 +56,26 @@ nav
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: var(--white) !important;
 }
-
+/*************
+header
+*************/
+header {
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+hgroup {
+    border-right: 10px solid var(--secondaryColor);
+    padding: 100px;
+    position: absolute;
+    right: 15%;
+    background: var(--white);
+}
 
 
 
